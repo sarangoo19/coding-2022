@@ -3,3 +3,4 @@ Conversion function needed:
 -Dollars to Cents
 -Gallons to Liters
 -Hours to Minutes 
+-Feet to Inches
