@@ -17,6 +17,7 @@ print('Now I am done.')
 print('1000 inches in meters are',convert_feet_to_meters(convert_inches_to_feet(1000.0)))
 
 # If statements
+
 if distance_meter>10.0
 	print('Distance is greater than 10 meters.')
 else:
@@ -29,6 +30,12 @@ else:
 
 print(distance_meter>10.0)
 
+distance_meter=0
+is distance_meter:
+#is the same as not distance_meter==0.0
+	print('What is distance?')
+else:
+	print('Distance is', distance_meter)
 
 
 
