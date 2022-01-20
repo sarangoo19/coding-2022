@@ -18,24 +18,28 @@ print('1000 inches in meters are',convert_feet_to_meters(convert_inches_to_feet(
 
 # If statements
 
-if distance_meter>10.0
+if distance_meter>10.0:
 	print('Distance is greater than 10 meters.')
 else:
 	print('Distance is not than great.')
 
-if False:
-	print('It is false.')
+i_am_lying = False
+if i_am_lying:
+	print('I am lying.')
 else:
-	print('It is not.')
+	print('I am telling the truth.')
 
 print(distance_meter>10.0)
 
-distance_meter=0
-is distance_meter:
-#is the same as not distance_meter==0.0
+distance_meter = 0
+if distance_meter:
+	# is the same as not distance_meter == 0.0
 	print('What is distance?')
 else:
 	print('Distance is', distance_meter)
 
-
-
+name = ' '
+if name:
+	# same as not name == ' '
+	print(name)
+print('Name has been printed')
